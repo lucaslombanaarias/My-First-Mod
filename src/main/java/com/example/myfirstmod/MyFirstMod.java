@@ -1,5 +1,8 @@
-package com.example.MyFirstMod;
+//MyFirstMod.java
+package com.example.myfirstmod;
 
+import com.example.myfirstmod.ModItems;
+import com.example.myfirstmod.Config;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -87,6 +90,8 @@ public class MyFirstMod {
         ITEMS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
         CREATIVE_MODE_TABS.register(modEventBus);
+        // Register the ModItems DeferredRegister
+        ModItems.ITEMS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
