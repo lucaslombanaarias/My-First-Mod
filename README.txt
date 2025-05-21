@@ -9,8 +9,20 @@ Note also that the patches are built against "un-renamed" MCP source code (aka
 SRG Names) - this means that you will not be able to read them directly against
 normal code.
 
-Setup Process:
+
+
+=============================
+Getting Started
+
+1. `git pull origin main`
+2. Ensure Java 17 is installed and `JAVA_HOME` points to it.
+3. Run `./gradlew genIntellijRuns` (or `genEclipseRuns depending on IDE`).
+4. Import into your IDE as a Gradle project.
+5. Launch the `runClient` configuration to verify the mod loads.
+
+
 ==============================
+Setup Process:
 
 Step 1: Open your command-line and browse to the folder where you extracted the zip file.
 
