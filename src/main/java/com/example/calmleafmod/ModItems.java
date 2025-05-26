@@ -1,5 +1,5 @@
 //ModItems.java
-package com.example.myfirstmod;
+package com.example.calmleafmod;
 
 
 import net.minecraft.world.item.Item;
@@ -11,7 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     // Create a DeferredRegister for ITEMS
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, MyFirstMod.MODID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, CalmleafMod.MODID);
 
     // Register the Calmleaf Seed
     public static final RegistryObject<Item> CALMLEAF_SEED = ITEMS.register("calmleaf_seed",

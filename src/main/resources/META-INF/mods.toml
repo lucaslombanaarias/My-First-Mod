@@ -24,13 +24,13 @@ license="All rights reserved" # i changed this
 [[mods]] #mandatory
 
 # The modid of the mod
-modId="myfirstmod" #mandatory # i changed this
+modId="calmleafmod" #mandatory # i changed this
 
 # The version number of the mod
 version="1.0.0" #mandatory # i changed this
 
 # A display name for the mod
-displayName="My First Mod" #mandatory # i changed this
+displayName="Calmleaf Mod" #mandatory # i changed this
 
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
@@ -60,7 +60,7 @@ description='''An example mod adding Calmleaf Seed and a custom creative tab.'''
 # i changed this
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.myfirstmod]] #optional # i changed this
+[[dependencies.calmleafmod]] #optional # i changed this
 # the modid of the dependency
 modId="forge" #mandatory
 # Does this dependency have to exist - if not, ordering below must be specified
@@ -75,7 +75,7 @@ ordering="NONE"
 side="BOTH"
 
 # Here's another dependency
-[[dependencies.myfirstmod]] # i changed this
+[[dependencies.calmleafmod]] # i changed this
 modId="minecraft"
 mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
@@ -86,5 +86,5 @@ side="BOTH"
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
 # that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
 # stop your mod loading on the server for example.
-#[features.myfirstmod]
+#[features.calmleafmod]
 #openGLVersion="[3.2,)"
