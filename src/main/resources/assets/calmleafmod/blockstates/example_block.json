@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "calmleafmod:block/example_block" }
+  }
+}
